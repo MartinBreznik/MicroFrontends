@@ -1,0 +1,42 @@
+{
+  "name": "mfe-terminal-catalog",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "start": "webpack-dev-server --open --mode development",
+    "start:live": "webpack-dev-server --open --mode development --liveReload"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Martin Breznik",
+    "email": "martin_breznik@hotmail.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "7.9.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "git://github.com/ScriptedAlchemy/html-webpack-plugin.git#master",
+    "style-loader": "1.2.1",
+    "webpack": "5.0.0-beta.22",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.5",
+    "axios": "^0.20.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.3"
+  }
+}
